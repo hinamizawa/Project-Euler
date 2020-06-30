@@ -43,3 +43,19 @@
                     (lazy-seq (next-primes (next-sieve sieve candidate)
                                            (+ candidate 2))))))]
     (cons 2N (lazy-seq (next-primes {} 3N)))))
+
+(defn- prime?* [num]
+  (loop [iter 5
+         top  (Math/sqrt num)]
+    (cond
+      (> iter top) true
+      (or (zero? (mod num iter))
+          (zero? (mod num (+ 2 iter)))) false
+      :else (recur (+ 6 iter) top))))
+
+(defn prime? [num]
+  (cond
+    (<= num 3) (< 1 num)
+    (or (zero? (mod num 2))
+        (zero? (mod num 3))) false
+    :else (prime?* num)))
