@@ -6,5 +6,6 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [criterium "0.4.5"]]
   :global-vars {*warn-on-reflection* true}
-  :main project-euler.core
+  :main project-euler.euler100
+  :aot :all
   :repl-options {:init-ns project-euler.core})
