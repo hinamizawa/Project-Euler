@@ -15,10 +15,10 @@
 
 (defn euler100 [n]
   (loop [n n]
-    (let [delta (inc (* 2 (* n (dec n))))
+    (let [delta (inc (* 2 (adjacent-prod n)))
           sd    (int-sqrt delta)]
       (if (= delta (* sd sd))
-        [n (/ (inc (int-sqrt delta)) 2)]
+        [n (/ (inc sd) 2)]
         (recur (if (zero? (mod n 4))
                  (inc n)
                  (+ n 3)))))))
