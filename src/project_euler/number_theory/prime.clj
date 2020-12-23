@@ -44,13 +44,18 @@
                                            (+ candidate 2))))))]
     (cons 2N (lazy-seq (next-primes {} 3N)))))
 
+;; p prime then p mod 6 = 1 or 5
 (defn- prime?* [num]
   (loop [iter 5
          top  (Math/sqrt num)]
     (cond
-      (> iter top) true
+      (> iter top)
+      true
+
       (or (zero? (mod num iter))
-          (zero? (mod num (+ 2 iter)))) false
+          (zero? (mod num (+ 2 iter))))
+      false
+
       :else (recur (+ 6 iter) top))))
 
 (defn prime? [num]
