@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3c7e15d-9eb2-4b17-b30e-72985a76bfb1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e2lkhMuOodBAE2QYmxg3YixhPx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension.C\:/Users/jylu/IdeaProjects/project-euler/src" value="clj" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Amazon Corretto/jdk11.0.7_10" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="ReplState" timestamp="1593532594669">{:repl-history {:ide [], :local [{:command &quot;(digits 10)&quot;, :offset 10, :ns &quot;project-euler.number-theory&quot;} {:command &quot;(map #(Character/getNumericValue %) (str 123456))&quot;, :offset 49, :ns &quot;project-euler.number-theory&quot;} {:command &quot;(map #(Character/getNumericValue ^Character %) (str 123456))&quot;, :offset 60, :ns &quot;project-euler.number-theory&quot;} {:command &quot;(take 1e5 (repeat #(rand-int Integer/MAX_VALUE)))&quot;, :offset 49, :ns &quot;project-euler.core&quot;} {:command &quot;(take 2 (repeat #(rand-int Integer/MAX_VALUE)))&quot;, :offset 7, :ns &quot;project-euler.core&quot;} {:command &quot;(take 2 (repeatly #(rand-int Integer/MAX_VALUE)))&quot;, :offset 17, :ns &quot;project-euler.core&quot;} {:command &quot;(take 2 (repeatedly #(rand-int Integer/MAX_VALUE)))&quot;, :offset 19, :ns &quot;project-euler.core&quot;} {:command &quot;(let [x (take 1e5 (repeatedly #(rand-int Integer/MAX_VALUE)))]\n  (bench (map digits x))\n  (bench (map #(for [n (str %)]\n                 (- (byte n) 48)) x)))&quot;, :offset 158, :ns &quot;project-euler.number-theory&quot;} {:command &quot;(extended-gcd 3 4)&quot;, :offset 17, :ns &quot;project-euler.number-theory&quot;} {:command &quot;(num-&gt;digits 10 10)&quot;, :offset 18, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(reverse (transient [1 2]))&quot;, :offset 24, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(num-&gt;digits 0)&quot;, :offset 14, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(or (transient [])\n    [1])&quot;, :offset 25, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(persistent! (transient []))&quot;, :offset 12, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(or *1\n    1)&quot;, :offset 12, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(rseq (persistent! (transient [])))&quot;, :offset 31, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(or (rseq (persistent! (transient []))) 1)&quot;, :offset 41, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(num-&gt;digits 0 10)&quot;, :offset 17, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(num-&gt;digits 0 2)&quot;, :offset 16, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(num-&gt;digits 2 2)&quot;, :offset 14, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 2)&quot;, :offset 14, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 2 2)&quot;, :offset 16, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 4 2)&quot;, :offset 14, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 4 10)&quot;, :offset 17, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 4)&quot;, :offset 14, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 111)&quot;, :offset 16, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(digital-sum 11111)&quot;, :offset 18, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(reduce * (range 1e4))&quot;, :offset 20, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(reduce * (range 1 1e4))&quot;, :offset 19, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(reduce * (range 1N 1e4))&quot;, :offset 19, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(integer? 1N)&quot;, :offset 12, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(integer? (reduce * (range 1N 1e4)))&quot;, :offset 35, :ns &quot;project-euler.number-theory.digits&quot;} {:command &quot;(take 10 (lazy-primes))&quot;, :offset 21, :ns &quot;project-euler.number-theory.prime&quot;} {:command &quot;(bench (take 3e6 (lazy-primes)))&quot;, :offset 32, :ns &quot;project-euler.number-theory.prime&quot;} {:command &quot;(bench (doall (take 3e6 (lazy-primes))))&quot;, :offset 13, :ns &quot;project-euler.number-theory.prime&quot;} {:command &quot;(&gt; 1N (double 1))&quot;, :offset 15, :ns &quot;project-euler.number-theory.prime&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration name="REPL for project-euler" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="project-euler" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for project-euler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c7e15d-9eb2-4b17-b30e-72985a76bfb1" name="Default Changelist" comment="" />
+      <created>1593527712822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593527712822</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="98" key="FileChooserDialogImpl" timestamp="1598676209024">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="584" y="98" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598676209024" />
+    <state x="349" y="160" key="IDE.errors.dialog" timestamp="1593530502520">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="160" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1593530502520" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1599032967678">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599032967678" />
+    <state x="431" y="155" key="search.everywhere.popup" timestamp="1593528344476">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1593528344476" />
+  </component>
+</project>
